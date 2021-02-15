@@ -104,7 +104,7 @@ const Todo = () => {
             <div className="addContainer">
 
                 <input type="text" onChange={(e) => setName(e.target.value)} ></input>
-                <input type="text" onChange={(e) => setAge(e.target.value)} ></input>
+                <input type="number" onChange={(e) => setAge(e.target.value)} ></input>
                 <button onClick={addTask} className={`${styles.button} ${styles.btnAdd}`}
                 >Add</button>
             </div>
